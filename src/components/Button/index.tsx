@@ -26,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({
   color = 'primary',
 }) => {
   const colorMap = {
-    primary: 'bg-indigo-500 text-white',
+    primary: 'bg-blue-500 text-white',
     black: 'bg-black-900 text-white',
     secondary: 'bg-white text-black-300 shadow-secondary-button',
     danger: 'bg-red-600 text-white',
